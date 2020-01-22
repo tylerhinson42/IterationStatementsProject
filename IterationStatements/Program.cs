@@ -39,12 +39,19 @@ namespace IterationStatements
   
             {
 
-                i++;
+                i++; // i + 1 = 1
                 numbers.Add(i);
 
                 // Increment your variable by 1
                 // Then add your variable to "numbers"
             }
+
+//--------------------------------------Added numbers to list--------------------------------
+
+
+
+//-------------------------------Print those numbers in collection below---------------------
+
 
             Console.WriteLine("Increase:");
 
@@ -61,14 +68,14 @@ namespace IterationStatements
            
             // DONE 
             // Create a for loop
-            // in your initializer set the value of i to 199
-            // in your conditional, as long as i is less than or equal to the length of "numbers"
-            // and as long as i is greater than or equal to 0
-            // Decrement i by 1
+            // in your initializer set the value of j to 199
+            // in your conditional, as long as j is less than or equal to the length of "numbers"
+            // and as long as j is greater than or equal to 0
+            // Decrement j by 1
 
             for (int j = 199; j < numbers.Count && j >= 0; j--)
             {
-                Console.WriteLine(numbers[j]); // Write to the console "numbers" at index i
+                Console.WriteLine(numbers[j]); // Write to the console "numbers" at index j
             }
 
             Console.WriteLine(numbers.Count);

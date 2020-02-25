@@ -73,7 +73,7 @@ namespace IterationStatements
             // and as long as j is greater than or equal to 0
             // Decrement j by 1
 
-            for (int j = 199; j < numbers.Count && j >= 0; j--)
+            for (int j = 199; j <= numbers.Count && j >= 0; j--)
             {
                 Console.WriteLine(numbers[j]); // Write to the console "numbers" at index j
             }
